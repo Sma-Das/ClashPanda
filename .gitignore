@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+stored_data/*
+!stored_data
+*.html
+!website_html
