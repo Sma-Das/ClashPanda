@@ -1,5 +1,6 @@
 from time import time
 from ScraperTools import scraper_tool as st
+from ExcelWriter import compile_sheets
 
 
 def clean(string):
@@ -98,5 +99,6 @@ if __name__ == '__main__':
             parse_clash_wiki(website=website, file_name=(type+"-"+item))
     for type in query:
         website.group_files(type)
+    compile_sheets()
 
     print(f"Compete! Took: {round(time()-start_time, 2)}s")
