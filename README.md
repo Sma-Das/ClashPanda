@@ -8,4 +8,4 @@ Designed to parse and compile data from the Clash of Clans wikipedia page
 ## Todo:
 
 * Implement scraper to get category names (currently hardcoded)
-* threading to speed up website HTML downloads
+* Threading to speed up website HTML downloads
